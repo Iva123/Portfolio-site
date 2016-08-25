@@ -1,0 +1,58 @@
+body {
+	color: #2d3c49;
+	font-family: 'Caveat', cursive;
+	font-size: 22px;
+}
+
+.logo {
+	 color: #02b3e4;
+	 font-size: 46px;
+ }
+
+.name {
+	font-size: 42px;
+}
+
+.featured {
+	color: #7d97ad;
+}
+
+hr {
+    height: 3px;
+    background-color: #7d97ad;
+ }
+
+img {
+	display: block;
+	margin: 0 auto;
+}  
+
+footer {
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+
+/**media queries for wider screens **/
+@media screen and (min-width: 768px) {
+	.container {
+		font-size: 26px;
+	}
+
+	.logo {
+		top: 50px;
+		text-align: left;
+	}
+
+	.name {
+		text-align: right;
+	}
+
+	.title {
+		text-align: right;
+	}
+
+	.featured {
+		text-align: left;
+	}
+
+}
